@@ -1,0 +1,63 @@
+*{ margin:0; padding:0;}
+
+body{ background:url(../images/bg.gif); font-family:Arial, Helvetica, sans-serif;}
+.clr{clear:both;}
+
+#pola{ position:relative; background:url(../images/bg_pola.jpg); width:302px; height:366px; margin:auto; margin-top:50px;
+-moz-box-shadow: 5px 5px 5px #000;
+-webkit-box-shadow: 5px 5px 5px #000;
+box-shadow: 5px 5px 5px #000;
+}
+
+#pola #texte{ position:absolute; text-align:center; color:#ffffff; font-size:14px; width:277px; }
+
+#socials{ position:absolute; top:305px; left:95px; width:106px; height:48px;}
+#socials #facebook{ float:left; display:block; width:47px; height:48px; background:url(../images/facebook.png); }
+#socials #twitter{ float:right; display:block; width:47px; height:48px; background:url(../images/twitter.png); }
+
+#pola #accueil #picmix{  top:77px; left:18px; position:absolute; width:266px; height:82px; background:url(../images/picmix.png);}
+
+#pola #accueil #texte{ top:167px; left:13px; }
+
+#pola #accueil #je_joue{ position:absolute; top:231px; left:95px; display:block; width:114px; height:40px; background:url(../images/je_joue.png);}
+#pola #accueil #chargement{
+  color: green;
+  display: block;
+  font-size: 16px;
+  left: 74px;
+  position: absolute;
+  text-decoration: none;
+  top: 240px;
+}
+
+#pola #fin #picmix{  top:22px; left:70px; position:absolute; width:170px; height:51px; background:url(../images/picmix_fin.gif);}
+
+#pola #fin #points{top:90px; left:115px; position:absolute; width:73px; height:71px; background:url(../images/lauriers.gif);}
+#pola #fin #points p{ color:#ffffff; text-align:center; font-weight:bold; margin: 20px 0 0 0;}
+
+#pola #fin #texte{ top:175px; left:13px; }
+
+#pola #fin  #rejouer{ position:absolute; top:231px; left:95px; display:block; width:114px; height:40px; background:url(../images/rejouer.png);}
+
+#pola #jeu #photo{ padding: 12px 0 0 12px; width:277px; height:277px; }
+
+#pola #jeu #avancement{ margin:auto; width:56px; height:24px; background:url(../images/jeu_avancement.png);}
+#pola #jeu #avancement p{ font-size:14px; text-align:center; padding-top:3px; color:#ffffff;}
+
+#pola #jeu form{ position:relative; display:block; width:277px; height:37px; margin:auto; margin-top:5px;}
+#pola #jeu form input{ position:absolute; left:0; width:200px; height:37px; padding-left:6px; margin:0; border:0; font-size:18px; }
+#pola #jeu form button{ border:0; background:none; position:absolute; right:0;}
+
+#pola #jeu #info{ width:240px; height:74px; background:url(../images/info.png); float:left;}
+#pola #jeu #info p{ padding: 35px 0 0 15px;}
+#pola #jeu #info p.faux span{ color:#F00;}
+#pola #jeu #info p.vrai{ color:#00a67c; text-align:center;}
+#pola #jeu #next{ width:62px; height:53px; background:url(../images/next.png) no-repeat center; float:right; margin-top:15px; font-size:11px; }
+#pola #jeu #next p{ padding-top:38px;text-align:center;}
+
+#valider, #next { cursor: pointer }
+
+
+
+
+
